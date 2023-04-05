@@ -74,7 +74,7 @@ const EditContactForm = ({ id, onClose }) => {
                 value={name}
                 onChange={(event) => onChange(event)}
               />} />
-            <HelperText sx={{ ml: '14px', color: '#a62633' }}>{nameMessage}</HelperText>
+            <HelperText sx={{ ml: '14px', color: '#0b7529' }}>{nameMessage}</HelperText>
           </Grid>
           <Grid item xs={12} sx={{position: 'relative'}}>
             <Controller
@@ -89,7 +89,7 @@ const EditContactForm = ({ id, onClose }) => {
                 value={number}
                 onChange={(event) => onChange(event)}
               />} />
-            <HelperText sx={{ ml: '14px', color: '#a62633' }}>{numberMessage}</HelperText>
+            <HelperText sx={{ ml: '14px', color: '#0b7529' }}>{numberMessage}</HelperText>
           </Grid>
         </Grid>
         <Button

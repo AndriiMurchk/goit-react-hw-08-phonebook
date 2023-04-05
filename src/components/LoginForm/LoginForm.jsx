@@ -38,7 +38,7 @@ const LoginForm = () => {
   return (
     <Container component="section" maxWidth="xs">
       <Box sx={{
-        display: 'flex',
+        display: '',
         flexDirection: 'column',
         alignItems: 'center',
       }}>
@@ -61,7 +61,7 @@ const LoginForm = () => {
                   autoFocus
                   id="email"
                 />}/>
-              <HelperText sx={{ml: '12px', color: '#a62633'}}>{emailMessage}</HelperText>
+              <HelperText sx={{ml: '12px', color: '#0b7529'}}>{emailMessage}</HelperText>
             </Grid>
             <Grid item xs={12} sx={{mb: '28px', position: 'relative'}}>
               <Controller
@@ -92,7 +92,7 @@ const LoginForm = () => {
                     } />
                 </Input>
                 } />
-              <HelperText sx={{ml: '12px', color: '#a62633'}}>{passwordMessage}</HelperText>
+              <HelperText sx={{ml: '12px', color: '#0b7529'}}>{passwordMessage}</HelperText>
             </Grid>
           </Grid>
           <Button
@@ -114,7 +114,7 @@ const LoginForm = () => {
           </Grid>
         </Box>
       </Box>
-      {error && <Paper elevation={6} sx={{p: '8px', m: '32px 0', textAlign: 'center', color: '#a62633'}}>
+      {error && <Paper elevation={6} sx={{p: '8px', m: '32px 0', textAlign: 'center', color: '#0b7529'}}>
         Incorrect user data (login or password). Please, check your details and try again!
       </Paper>}
     </Container>

@@ -62,7 +62,7 @@ const RegisterForm = () => {
                   autoFocus
                   id="name"
                 />}/>
-              <HelperText sx={{ ml: '14px', color: '#a62633' }}>{nameMessage}</HelperText>
+              <HelperText sx={{ ml: '14px', color: '#0b7529' }}>{nameMessage}</HelperText>
             </Grid>
             <Grid item xs={12} sx={{ mb: '28px', position: 'relative' }}>
               <Controller
@@ -76,7 +76,7 @@ const RegisterForm = () => {
                   autoComplete="email"
                   id="email"
                 />}/>
-              <HelperText sx={{ ml: '14px', color: '#a62633' }}>{emailMessage}</HelperText>
+              <HelperText sx={{ ml: '14px', color: '#0b7529' }}>{emailMessage}</HelperText>
             </Grid>
             <Grid item xs={12} sx={{mb: '28px', position: 'relative'}}>
               <Controller
@@ -107,7 +107,7 @@ const RegisterForm = () => {
                     } />
                 </Input>
                 } />
-              <HelperText sx={{ml: '14px', color: '#a62633'}}>{passwordMessage}</HelperText>
+              <HelperText sx={{ml: '14px', color: '#0b7529'}}>{passwordMessage}</HelperText>
             </Grid>
           </Grid>
           <Button

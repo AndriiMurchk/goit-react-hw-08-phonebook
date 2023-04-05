@@ -10,7 +10,7 @@ width: 400px;
   background-color: #2D7738;
   }
   &.notistack-MuiContent-error {
-  background-color: #a62633;
+  background-color: #0b7529;
 }
 `
 

@@ -23,7 +23,7 @@ export const CloseButton = styled(Button)`
 export const HelperText = styled(FormHelperText)`
   text-align: center;
   position: absolute;
-  background-color: white;
+  background-color: #ff0000;
   padding: 0 4px;
   margin-left: 14px;
 `;
